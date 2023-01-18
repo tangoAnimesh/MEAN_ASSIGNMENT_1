@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title> Assignment_ONE </title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Assignment One</h1>
+    </header>
+
+    <main>
+        <section class="section_one">
+            <h2>Create a Train Time Table using Rowspan & Colspan</h2>
+
+            <div class="table">
+                <table>
+                    <tr>
+                        <th>Train_No</th>
+                        <th>Deperture_Time</th>
+                        <th>Arrival_Time</th>
+                        <th>Train_Color</th>
+                        <th>Train_Sits</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><span class="AM">2:30</span></td>
+                        <td><span class="PM">5:30</span></td>
+                        <td><span>Black</span></td>
+                        <td><span>400</span></td>
+
+                    </tr>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><span class="AM">2:30</span></td>
+                        <td><span class="PM">5:30</span></td>
+                        <td><span>Black</span></td>
+                        <td><span>400</span></td>
+
+                    </tr>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><span class="AM">2:30</span></td>
+                        <td><span class="PM">5:30</span></td>
+                        <td><span>Black</span></td>
+                        <td><span>400</span></td>
+
+                    </tr>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><span class="AM">2:30</span></td>
+                        <td><span class="PM">5:30</span></td>
+                        <td><span>Black</span></td>
+                        <td><span>400</span></td>
+
+                    </tr>
+                    <tr>
+                        <td colspan="5">Total No Of Sits : 1600 </td>
+
+
+                    </tr>
+
+                </table>
+            </div>
+        </section>
+
+        <section class="section_two">
+            <h2>Create a Monthly Salary CHart using Rowspan & colspan as per requirement.</h2>
+
+            <div class="table">
+                <table>
+                    <tr>
+                        <th>EMP_ID</th>
+                        <th>EMP_NAME</th>
+                        <th>EMP_ADD</th>
+                        <th>EMP_PHONE</th>
+                        <th>EMP_SALARY</th>
+                        <th>EMP_TOTAL_SALARY</th>
+                    </tr>
+                    <tr>
+                        <td>01</td>
+                        <td>Tam</td>
+                        <td>SubhasGram</td>
+                        <td>785***65</td>
+                        <td class="salary"> 1000</td>
+                        <td rowspan="5">Total Salary: <span id="value"></span></td>
+                    </tr>
+                    <tr>
+                        <td>02</td>
+                        <td>Kam</td>
+                        <td>SubhasGram</td>
+                        <td>785***65</td>
+                        <td class="salary"> 2000</td>
+                    </tr>
+                    <tr>
+                        <td>03</td>
+                        <td>Fam</td>
+                        <td>SubhasGram</td>
+                        <td>785***65</td>
+                        <td class="salary"> 3000</td>
+                    </tr>
+                    <tr>
+                        <td>04</td>
+                        <td>Bam</td>
+                        <td>SubhasGram</td>
+                        <td>785***65</td>
+                        <td class="salary"> 5000</td>
+                    </tr>
+                </table>
+                <button id="what_is_salary" class="btn">Total Salary</button>
+            </div>
+        </section>
+
+        <section class="section_three">
+            <h2>
+                Create a Marksheet which should contains the following fields Subjects :
+                <p>[Math,Science,English]</p>
+                <p>[Average,GRadation,total]</p>
+            </h2>
+
+            <div class="table">
+                <table>
+                    <tr>
+                        <th>STD_ID</th>
+                        <th>STD_NAME</th>
+                        <th>STD_CLASS</th>
+                        <th>SUB_MATH</th>
+                        <th>SUB_ENGLISH</th>
+                        <th>SUB_SCIENCE</th>
+                        <th>STD_GRADE</th>
+                        <th>TOTAL</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Sam</td>
+                        <td>5</td>
+                        <td><span class="math">67</span></td>
+                        <td><span class="english">78</span></td>
+                        <td><span class="science">55</span></td>
+                        <td><span class="grade"></span></td>
+                        
+                        <td><span class="total"></span></td>
+                    </tr>
+                  
+                    <tr>
+                        <th colspan="7">Avarage</th>
+                        <td> <span class="avarage"></span> </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Unknown</td>
+                        <td>5</td>
+                        <td><span class="math">45</span></td>
+                        <td><span class="english">58</span></td>
+                        <td><span class="science">50</span></td>
+                        <td><span class="grade"></span></td>
+                        
+                        <td><span class="total"></span></td>
+                    </tr>
+                  
+                    <tr>
+                        <th colspan="7">Avarage</th>
+                        <td> <span class="avarage"></span> </td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>TOM</td>
+                        <td>5</td>
+                        <td><span class="math">45</span></td>
+                        <td><span class="english">98</span></td>
+                        <td><span class="science">56</span></td>
+                        <td><span class="grade"></span></td>
+                        
+                        <td><span class="total"></span></td>
+                    </tr>
+                  
+                    <tr>
+                        <th colspan="7">Avarage</th>
+                        <td> <span class="avarage"></span> </td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Moli</td>
+                        <td>5</td>
+                        <td><span class="math">67</span></td>
+                        <td><span class="english">99</span></td>
+                        <td><span class="science">78</span></td>
+                        <td><span class="grade"></span></td>
+                        
+                        <td><span class="total"></span></td>
+                    </tr>
+                  
+                    <tr>
+                        <th colspan="7">Avarage</th>
+                        <td> <span class="avarage"></span> </td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Potol</td>
+                        <td>5</td>
+                        <td><span class="math">100</span></td>
+                        <td><span class="english">99</span></td>
+                        <td><span class="science">98</span></td>
+                        <td><span class="grade"></span></td>
+                        
+                        <td><span class="total"></span></td>
+                    </tr>
+                  
+                    <tr>
+                        <th colspan="7">Avarage</th>
+                        <td> <span class="avarage"></span> </td>
+                    </tr>
+
+                </table>
+
+                <button id="marksBtn" class="btn">Calculate ALL</button>
+
+
+
+            </div>
+
+        </section>
+    </main>
+
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
